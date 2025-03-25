@@ -23,11 +23,3 @@ def sort_chars(char_count):
                 char_list.append({'char': key, 'count': value})
     char_list.sort(reverse=True, key=sort_on)
     return char_list 
-
-
-
-
-    
-
-
-   
