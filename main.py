@@ -1,8 +1,4 @@
 import sys
-if len(sys.argv) == 0:
-    print("Usage: python3 main.py <path_to_book>")
-    sys.exit(1)
-
 
 def get_book_text(path):
     with open(path) as f:
